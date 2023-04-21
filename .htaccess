@@ -1,0 +1,13 @@
+
+# aici vreau sa previn accesul la anumite fisiere critice
+#IndexIgnore controllers models views
+# sau pentru toate fisierele
+Options -Indexes
+
+# aici am regula pentru un frendly URL
+RewriteEngine On
+RewriteRule ^([\w]+)$ ?page=$1 [NC]
+
+# tratarea erorilor 403 si 404
+ErrorDocument 403 /PROIECT_FINAL/Magia_Romaniei/VIEWS/ERRORS/error403.html
+ErrorDocument 404 /PROIECT_FINAL/Magia_Romaniei/VIEWS/ERRORS/error404.html

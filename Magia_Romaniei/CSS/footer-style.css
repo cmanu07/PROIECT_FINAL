@@ -1,0 +1,93 @@
+.bara-decor {
+    margin: auto;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+.bara-decor span {
+    background-color: var(--my-darkgrey);
+    width: 5em;
+    height: 0.5em;
+    border-radius: 30%;
+}
+#bara-white {
+    background-color: var(--my-white);
+}
+#bara-green {
+    background-color: #96be25;
+}
+#var-white {
+    color: var(--my-white);
+}
+.bara-decor img {
+    width: 4em;
+    height: 2em;
+    padding: 0 1em;
+}
+footer {
+    background-color: var(--my-darkgrey);
+    height: fit-content;
+    padding: 3em 0 0.5em;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer div, span {
+    color: var(--my-white);
+    width: 18em;
+}
+footer span {
+    flex-basis: 100%;
+    height: 0;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+}
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-social figure {
+    display: flex;
+}
+.footer-logo-F, .footer-logo-T, .footer-logo-I {
+    margin: 0.5em;
+    height: 3.5em;
+    width: 3.5em;
+    transition: 0.3s;
+}
+.footer-logo-F:hover, .footer-logo-T:hover, .footer-logo-I:hover, .footer-logo-W:hover {
+    box-shadow: inset 5px 5px 25px var(--my-white);
+    padding: 0.2em;
+    border-radius: 20%;
+}
+.footer-logo-W {
+    margin: 0.6em;
+    height: 3.4em;
+    width: 3.5em;
+    transition: 0.3s;
+}
+.footer-social span {
+    margin-top: 2em;
+}
+.footer-descriere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    padding-bottom: 3em;
+
+}
+.footer-descriere p, span {
+    text-align: center;
+}
+.footer-descriere span {
+    display: none;
+    padding: 0;
+}

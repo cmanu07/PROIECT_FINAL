@@ -1,0 +1,107 @@
+header {
+    background-color: var(--my-headercolor);
+    backdrop-filter: blur(5px);
+    border-radius: 0 0 20px 20px;
+    margin: 0.3em 0 0;
+    padding: 1.4em 0 1em;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+    z-index: 1;
+}
+.header-shrink {
+    padding: 0.9em 2.2em 0.4em 0.7em;
+}
+h1 {
+    margin: 1em;
+    width: 30vw;
+}
+h1 a {
+    color: var(--my-white);
+    text-decoration: none;
+    font-size: 2.6vw;
+    font-weight: bold;
+    transition: 0.3s;
+}
+h1 a:hover {
+    color: var(--my-bluehover);
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 62vw;
+    align-items: end;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0.1em;
+    margin-bottom: 1.3em;
+}
+.ul-shrink {
+    margin-bottom: 0.5em;
+    transition: 0.3s;
+}
+nav ul li {
+    margin-left: 2.5em;
+    width: fit-content;
+}
+nav ul a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--my-white);
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+nav ul a:hover {
+    color: var(--my-bluehover);
+}
+.nav-butt {
+    align-self: flex-end;
+}
+.nav-butt button, .nav-butt a {
+    font-weight: bold;
+    font-size: 0.85em;
+    letter-spacing: 1px;  
+    color: var(--my-white);
+    transition: 0.3s;
+}
+#logareBut, #inregBut {
+    transition: 0.3s;
+}
+#signUp, #logareBut, #inregBut, #logOut {
+    background-color: var(--my-darkgrey);
+}
+#logareBut:hover, #inregBut:hover, #logOut:hover, .nav-butt button:hover {
+    color: var(--my-bluehover);
+}
+.back-modale {
+    background-color: var(--my-whitegreen);
+}
+.log-form, .sign-form {
+    align-items: center;
+}
+.log-form input, .sign-form input:not(.check) {
+    width: 26em;
+}
+.underline {
+    border-bottom: var(--my-bluehover) solid 6px;
+}
+#logOut a {
+    color: var(--my-white);
+    text-decoration: none;
+}
+
+/* mesaje formulare */
+.invalid {
+    display: none;
+}
+.invalid-red {
+    display: inline;
+    color: red;
+    font-size: 0.8em;
+}
